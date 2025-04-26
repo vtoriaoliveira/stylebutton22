@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+   *{ margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+body{ background-color:#231f2c;
+display: grid;
+place-content:  center;
+height: 110vh;
+gap: 16px;
+}
+#app{
+  max-width: 360px;
+  padding-inline: 40px;
+}
+h1{ color: bisque;
+font-family: "inter",sans-serif;
+font-size: 32px;
+justify-content: center ;
+}
+p{ margin-top: 8px;
+color: white;
+font-family: "inter",sans-serif;
+opacity: 0.7;
+justify-content: center;
+}
+.buttons{
+  margin-top: 60px;
+  display:grid;
+  gap: 32px;
+
+
+}
+.primary{--bg-defaul: #8257e5;
+--bg-houver:#bed4ff;
+}
+.segundo{
+  --bg-defaul:#5e95fc;
+  --bg-houver:#EFF4FF;
+}
+.terceiro{
+ --bg-defaul:##161F55;
+  --bg-houver:##161F55;
+}
+  button{ background-color: var(--bg-defaul);
+  font-family: "inter";
+  border: 0;
+  color: white;
+  padding: 12px 24px;
+ text-transform: uppercase;
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 24px;
+ border-radius: 24px;
+
+
+  }
+  button:hover{
+    background-color: var(--bg-houver);
+  }
+
+  button:focus{outline: 2px solid #d9cdf7; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
